@@ -4,15 +4,21 @@
   Created At : 06/09/2026
 -->
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>soutenances</title>
   <meta name="description" content="Présentation des soutenances">
   <link rel="canonical" href="https://yanisperson7.github.io/site-ada-wong/soutenances.html">
   <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
-
+  <meta property="og:title" content="Ada Wong, Ressources">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://yanisperson7.github.io/site-ada-wong/soutenances.html">
+  <meta property="og:image" content="https://yanisperson7.github.io/site-ada-wong/assets/img/ada-wong.webp">
+  <meta property="og:description" content="Soutenances">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="robots" content="noindex">
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -21,29 +27,97 @@
   <header>
     <nav aria-label="Menu principal">
       <ul>
-      <li><a href="index.html">Présentation</a></li>
-      <li><a href="ressources.html">Ressources</a></li>
-      <li><a href="soutenances.html" aria-current="page">Soutenances</a></li>
-    </ul>
+        <li><a href="index.html">Présentation</a></li>
+        <li><a href="ressources.html">Ressources</a></li>
+        <li><a href="soutenances.html" aria-current="page">Soutenances</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <p>Soutenances</p>
+    <h1>Soutenances</h1>
+    <p>
+      Plusieurs fois dans l'année, nous réalisons des projets à présenter
+      devant un jury : ce que j'ai construit, comment, et ce que je ferais
+      autrement.
+    </p>
+    <p>
+      Cette page référence les projets passés et à venir, les technologies
+      employées et un lien vers le résultat en production.
+    </p>
+
+    <div>
+      <label for="avancement">Soutenances passées</label>
+      <progress id="avancement" max="2" value="1">1 sur 2</progress>
+      1 sur 2
+    </div>
+
+    <article>
+      <h2>Site personnel HTML / CSS</h2>
+      <p>
+        Le site que vous êtes en train de lire, écrit sans une ligne de mise
+        en forme de ma main. L'objectif n'est pas qu'il soit joli, mais que
+        chaque balise dise ce que son contenu est. Présentée le
+        <time datetime="2026-06-09T14:00">14 juillet 2026 à 2h00</time>.
+      </p>
+
+      <details>
+        <summary>La stack</summary>
+        <dl>
+          <dt>Frontend</dt>
+          <dd>HTML</dd>
+          <dd>CSS</dd>
+          <dt>Backend</dt>
+          <dd>Aucun</dd>
+          <dt>Base de données</dt>
+          <dd>Aucune</dd>
+          <dt>Hébergement</dt>
+          <dd>Github Pages</dd>
+        </dl>
+
+      </details>
+      <a href="index.html">Voir le projet</a>
+
+    </article>
+
+    <article>
+      <h2>Applications Java</h2>
+      <p>
+        Cette application est en cours de développement. Présentée le
+        <time datetime="2026-06-09T14:00">25 décembre 2026 à 20h00</time>.
+      </p>
+
+      <details>
+        <summary>La stack</summary>
+        <dl>
+          <dt>Frontend</dt>
+          <dd>JavaFX</dd>
+          <dt>Backend</dt>
+          <dd>Java</dd>
+          <dt>Base de données</dt>
+          <dd>En cours de développemnt</dd>
+          <dt>Hébergement</dt>
+          <dd>Inconnue</dd>
+        </dl>
+      </details>
+      <a>Voir le projet</a>
+    </article>
+
   </main>
 
   <footer>
-      <nav aria-label="Liens du site">
-        <ul>
-          <li><a href="index.html">Présentation</a></li>
-          <li><a href="ressources.html">Ressources</a></li>
-          <li><a href="soutenances.html" aria-current="page">Soutenances</a></li>
-        </ul>
-      </nav>
+    <nav aria-label="Liens du site">
+      <ul>
+        <li><a href="index.html">Présentation</a></li>
+        <li><a href="ressources.html">Ressources</a></li>
+        <li><a href="soutenances.html" aria-current="page">Soutenances</a></li>
+      </ul>
+    </nav>
 
-      <p><a href="#haut">Revenir en haut de la page</a></p>
+    <p><a href="#haut">Revenir en haut de la page</a></p>
 
-      <p><small>© <time datetime="2026">2026</time> Ada Wong</small></p>
-    </footer>
+    <p><small>© <time datetime="2026">2026</time> Ada Wong</small></p>
+  </footer>
 </body>
+
 </html>
