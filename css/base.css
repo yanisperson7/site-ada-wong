@@ -372,9 +372,9 @@ a:has(article) h3::after {
   font-size: 0.85em;
 }
 
-article > img {
+/* article > img {
   width: 60px;
-}
+} */
 
 article h3 {
   margin-top: 0;
